@@ -11,7 +11,7 @@ Vue.use(iView);
 
 // 路由配置
 const RouterConfig = {
-    mode: 'history',
+    mode: 'hash',//路由模式从history改为hash
     routes: Routers
 };
 const router = new VueRouter(RouterConfig);
